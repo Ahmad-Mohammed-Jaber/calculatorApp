@@ -14,11 +14,11 @@ function appendNumber(number) {
     inner += number
     console.log((inner))
     
-    // if (inner.includes("."))
-    // {
-    //     resTextElement.innerText = inner
-    //     return
-    // }
+    if (inner.includes("."))
+    {
+        resTextElement.innerText = inner
+        return
+    }
         
     inner = inner.split(",").join("")
     resTextElement.innerText = parseFloat(inner).toLocaleString("en")
@@ -104,5 +104,3 @@ function doOperation(op) {
 operationBtns.forEach(btn => {
     btn.addEventListener("click", () => doOperation(btn.innerText))
 });
-
-
