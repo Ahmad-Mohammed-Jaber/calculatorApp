@@ -1,6 +1,6 @@
 # A simple calculator app made with HTML, CSS, and JS
 
-Credit to Web Dev Simplifed on Youtube for the tutorial
+Credit to Web Dev Simplifed on Youtube for the tutorial <br>
 Needed the tutorial mostly for the CSS bits
 
 ## Changes over the tutorial
